@@ -1,0 +1,22 @@
+{
+  "name": "amar-hishab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "আমার হিসাব — ব্যক্তিগত হিসাব ও ফান্ড ম্যানেজমেন্ট অ্যাপ",
+  "scripts": {
+    "seed": "node tools/make-seed.mjs",
+    "serve": "npx http-server www -p 8080 -c-1",
+    "sync": "npx cap sync android",
+    "apk": "npx cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/filesystem": "^6.0.2",
+    "@capacitor/share": "^6.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.2.0"
+  }
+}

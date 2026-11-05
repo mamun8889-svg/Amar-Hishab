@@ -1,0 +1,7 @@
+{
+  "appId": "bd.amarhishab.app",
+  "appName": "আমার হিসাব",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "android": { "backgroundColor": "#0b3d33" }
+}
